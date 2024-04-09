@@ -1,0 +1,41 @@
+Controles (Controles.java):
+
+Clase que implementa la interfaz KeyListener para gestionar eventos de teclado.
+Almacena el estado de las teclas de dirección (Arriba, Abajo, Izquierda, Derecha).
+ChecadorColisiones (ChecadorColisiones.java):
+
+Verifica las colisiones de una entidad con su entorno (suelos y objetos).
+Utiliza información sobre la posición y dirección de la entidad para realizar las comprobaciones.
+LugarObj (lugarobj.java):
+
+Asigna posiciones iniciales a una serie de objetos en el juego.
+Pregunta (Pregunta.java):
+
+Clase para gestionar preguntas relacionadas con los objetos del juego.
+Verifica la entrada del usuario comparándola con el nombre de un elemento químico.
+UI (UI.java):
+
+Clase para mostrar información en la interfaz de usuario, como el número de elementos recogidos.
+Al (Al.java):
+
+Clase que representa un objeto específico del juego llamado "Al" (quizás aluminio) y carga su imagen.
+superObjetos (superObjetos.java):
+
+Clase base para objetos del juego con propiedades comunes, como imágenes y posición.
+AdministradorSuelos (AdministradorSuelos.java):
+
+Gestiona suelos del juego, cargando imágenes y el mapa desde un archivo de texto.
+Dibuja los suelos en la pantalla.
+Suelos (Suelos.java):
+
+Clase que representa un suelo con una imagen y una propiedad de colisión.
+Entidad (Entidad.java):
+
+Clase base para entidades del juego con propiedades comunes, como posición y área sólida.
+Jugador (Jugador.java):
+
+Clase que representa al jugador en el juego.
+Gestiona el movimiento del jugador, colisiones, recogida de objetos y su representación gráfica.
+Estos componentes forman un juego en Java que implica mover un jugador,
+recoger objetos, responder preguntas y gestionar colisiones en un entorno definido por suelos y objetos.
+Cada clase tiene responsabilidades específicas dentro del juego.
